@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@font-face {
+    font-family: 'open';
+    src: url(fontes/idroid.otf);
+    src: url(__MACOSX/fontes/idroid.otf);
+}
+
+
+body{
+     font-family: 'open', Arial, Helvetica, sans-serif;
+}
+
+main{
+    background: linear-gradient(to bottom, rgb(0, 255, 115), rgba(0, 0, 0, 0.753));
+    color: whitesmoke;
+    text-align: center;
+    padding: 1px;
+    margin: 0px;
+    border-radius: 33px 20px;
+    box-shadow: 2px 2px 3px black;
+}
+
+
+nav > a{
+    margin:  20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+h2{
+    font-size: 2em;
+    font-family: 'Rubik Mono One', Arial, Helvetica, sans-serif;
+    background-color: rgba(110, 255, 175, 0.212);
+}
+
+p{
+    font-size: 2em;
+}
+
+img{
+    width: auto;
+    height: auto;
+}
+
+iframe{
+    width: 1920px;
+    height: 1080px;
+    text-align: center;
+    position: static;
+}
+
+div.apm{
+    background-color: rgba(0, 255, 157, 0.384);
+    font-size: 1em;
+ 
+}
+
+div.apm > p{
+    background-color: rgba(0, 255, 157, 0.384);
+    font-size: 2em;
+}
+
+
+ul{
+    font-size: 2em;
+   background-color: rgba(0, 255, 157, 0.384); 
+   
+}
+
+p.text{
+    font: 1em sans-serif;
+}
+
+a{
+    color: darkgreen;
+}
+
+
